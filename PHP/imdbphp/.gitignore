@@ -1,0 +1,6 @@
+/composer.lock
+/tests/cache
+/vendor
+/cache
+/.idea
+/demo/images

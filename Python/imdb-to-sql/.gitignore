@@ -1,0 +1,21 @@
+# Raw Data
+db_dump/
+
+# Cached Files
+*.cache
+
+# Binaries
+*.pyc
+*.dll
+*.def
+
+# Sqlite Db
+*.db
+
+# GVIM Temps
+*.swp
+*.swo
+*~
+
+# General Temps
+*.bak

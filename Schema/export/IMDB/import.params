@@ -1,0 +1,24 @@
+
+# the parameter file
+data.folder=data/
+
+# Database parameters
+database.url=DBI:mysql:imdb_full:localhost
+database.handler=lib::MySQLDB
+database.storageHandler=imdb::RelStore
+database.user=imdb
+database.pwd=imdb
+database.should_clear=1
+
+# stuff to import
+import.movies=0
+import.actors=1
+import.actresses=0
+import.language=0
+import.genre=0
+import.ratings=0
+
+# logfile configuration
+log.logfile=log/logfile.log
+log.unprocessed=log/unprocessed.log
+
